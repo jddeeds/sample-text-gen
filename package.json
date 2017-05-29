@@ -2,6 +2,10 @@
   "name": "sampletextgen",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "7.9.0",
+    "npm": "4.2.0"
+  },
   "dependencies": {
     "axios": "^0.16.1",
     "react": "^15.5.4",
@@ -15,8 +19,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "engines": {
-    "node": "7.9.0"
-  }
+  }  
 }
